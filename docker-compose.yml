@@ -14,8 +14,8 @@ services:
       - rabbitmq
 
   mongo:
-    image: mongo:2.4
-    command: --noprealloc --nojournal --smallfiles
+    image: mongo
+    command: --noprealloc --smallfiles
 
   rabbitmq:
     image: rabbitmq:3-management
